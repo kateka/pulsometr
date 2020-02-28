@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kateka/projectSASS.git"
+    "url": "git+https://github.com/kateka/pulsometr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kateka/projectSASS/issues"
+    "url": "https://github.com/kateka/pulsometr/issues"
   },
-  "homepage": "https://github.com/kateka/projectSASS#readme",
+  "homepage": "https://github.com/kateka/pulsometr#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
