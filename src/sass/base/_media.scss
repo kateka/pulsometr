@@ -14,8 +14,30 @@
             padding: 0 12px;
         }
     }
+
+    .consultation {
+        .title_left {
+            text-align: center;
+        }
+        &__descr {
+            padding: 0 20px;
+        }
+        .feed-form {
+            padding-left: 20px;
+        }
+    } 
 }
 
 @media (max-width: 767px) {
-    
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
 }
