@@ -16,16 +16,34 @@
     }
 
     .consultation {
+        padding: 80px 0 80px 0;
         .title_left {
             text-align: center;
+            font-size: 30px;
         }
         &__descr {
             padding: 0 20px;
+            font-size: 19px;
         }
         .feed-form {
             padding-left: 20px;
+            width: 280px;
         }
-    } 
+    }
+
+    .slick-dots {
+         display: flex;
+         justify-content: center;
+    }
+
+    .carousel {
+        &__inner {
+            img {
+                height: 400px;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
